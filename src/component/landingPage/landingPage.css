@@ -1,0 +1,53 @@
+.parent {
+  position: relative;
+  width: 100%;
+  border: 1px solid black;
+}
+.one,
+.two,
+.three {
+  position: absolute;
+  height: 400px;
+  width: 65%;
+}
+.one {
+  left: 0;
+  top: 0;
+  background-color: rgb(89 48 128 / 74%);
+  background-image: url(images/11.jpeg);
+  -webkit-clip-path: polygon(0 0, 39% 0, 22% 100%, 0% 100%);
+  clip-path: polygon(0 0, 39% 0, 24% 100%, 0% 100%);
+}
+.one1 {
+  background-color: rgb(214 13 13 / 53%);
+  height: 400px;
+  padding-top: 1px;
+}
+.two2 {
+  background-color: rgb(16 17 230 / 58%);
+  height: 400px;
+  padding-top: 1px;
+}
+.three3 {
+  background-color: rgb(34 136 5 / 66%);
+  height: 400px;
+  padding-top: 1px;
+}
+.one1 > p {
+  font-size: 50px;
+  color: white;
+  margin: 151px 0 0 31px;
+}
+.two {
+  left: 0;
+  top: 0;
+  background-image: url(images/22.jpg);
+  clip-path: polygon(39% 0, 73% 0, 60% 100%, 24% 100%);
+}
+.three {
+  left: 0;
+  top: 0;
+  background-image: url(images/33.jpg);
+  -webkit-clip-path: polygon(74% 0, 100% 0, 100% 100%, 60% 100%);
+  clip-path: polygon(73% 0, 100% 0, 100% 100%, 60% 100%);
+}

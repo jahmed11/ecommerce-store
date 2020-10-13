@@ -1,0 +1,31 @@
+.auth {
+  margin: 100px auto 0 auto;
+  max-width: 400px;
+  padding: 40px;
+  background-color: white;
+  box-shadow: 0 0 18px rgb(0 0 0 / 11%);
+}
+.auth-label {
+  font-size: 17px;
+  text-transform: capitalize;
+  font-weight: 500;
+}
+.btn-submit {
+  border: 1px solid black;
+  color: #000000;
+  background-color: #ffffff;
+  padding: 12px 21px;
+  font-size: 12px;
+  font-weight: 600;
+  text-transform: uppercase;
+  border-radius: 3px;
+}
+.btn-submit:hover {
+  background-color: rgb(186, 188, 192);
+  cursor: pointer;
+}
+.signIn-title {
+  text-align: center;
+  border-bottom: 1px solid #eee;
+  padding-bottom: 15px;
+}

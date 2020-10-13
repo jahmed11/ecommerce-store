@@ -1,0 +1,82 @@
+.Mymodal {
+  position: fixed;
+  z-index: 500;
+  background-color: white;
+  width: 400px;
+  border: 1px solid #ccc;
+  box-shadow: 1px 1px 1px black;
+  padding: 16px;
+  left: 35%;
+  top: 29%;
+  box-sizing: border-box;
+  transition: all 1s ease-in-out;
+  margin: 0 auto;
+  border-radius: 6px 6px;
+}
+.MymodalOpen {
+  animation: modalOpen 0.8s ease-out forwards;
+}
+@keyframes modalOpen {
+  0% {
+    transform: translateY(-100%);
+  }
+  50% {
+    transform: translateY(20%);
+  }
+  100% {
+    transform: translateY(0);
+  }
+}
+
+.MymodalClose {
+  transform: translateX(-100%);
+  opacity: 0;
+}
+
+.MymodalButtons {
+  width: 275px;
+  margin: 8px auto;
+}
+.closeModal {
+  width: 50px;
+  border: none;
+  text-align: end;
+  background: white;
+  max-width: 400px;
+  margin-left: 300px;
+  font-weight: bold;
+  font-size: 20px;
+}
+.closeModal:focus {
+  outline: none;
+}
+
+@media (max-width: 770px) {
+  .Mymodal {
+    left: 23%;
+  }
+}
+@media (max-width: 430px) {
+  .Mymodal {
+    left: 7%;
+    width: 360px;
+  }
+  .closeModal {
+    margin-left: 233px;
+  }
+}
+@media (max-width: 380px) {
+  .Mymodal {
+    left: 2%;
+    width: 360px;
+  }
+}
+@media (max-width: 330px) {
+  .Mymodal {
+    width: 310px;
+    left: 2%;
+  }
+  .closeModal {
+    margin-left: 233px;
+  }
+}

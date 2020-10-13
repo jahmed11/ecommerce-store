@@ -1,0 +1,36 @@
+.videoControl {
+  position: relative;
+}
+.video {
+  width: 90%;
+  height: auto;
+}
+.videoControl > h3 {
+  position: absolute;
+  bottom: 27px;
+  left: 101px;
+  color: white;
+  font-weight: 800;
+  font-size: 40px;
+  text-transform: uppercase;
+  line-height: 0.833;
+}
+@media (max-width: 770) {
+  .videoControl {
+    width: 740px;
+  }
+  .videoControl > h3 {
+    bottom: 10px;
+    left: 51px;
+  }
+}
+@media (max-width: 440) {
+  .videoControl {
+    width: 430px;
+  }
+  .videoControl > h3 {
+    bottom: 3px;
+    left: 25px;
+    font-size: 22px;
+  }
+}
